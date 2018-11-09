@@ -1,0 +1,9 @@
+test=int(input())
+t=0
+while(t<test):
+	n=int(input())
+	ans=((n*n*n)/2)+((3*n*n)/2)+n
+	if(n%2==1):
+		ans=ans+1
+	print(ans)
+	t=t+1

@@ -1,0 +1,9 @@
+test=0
+while(test<10):
+	a=input()
+	b=input()
+	c=(a+b)/2
+	d=(a-b)/2
+	print(c)
+	print(d)
+	test=test+1
